@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/FreeLancer',
+  process.env.MONGODB_URI || 'mongodb+srv://spearson1986:M@rktrain1286@cluster0.ezrovhf.mongodb.net/?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,

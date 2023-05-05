@@ -8,7 +8,7 @@ const rootEl = document.getElementById("root");
 const root = ReactDOM.createRoot(rootEl) 
 
 const httpLink = createHttpLink({
-  uri: "http://localhost:1337/graphql",
+  uri: "/graphql",
 });
 const authLink = setContext((_, { headers }) => {
   const token = localStorage.getItem("id_token");

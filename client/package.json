@@ -1,9 +1,7 @@
 {
-  "name": "freelancer",
+  "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:1337",
-  "homepage": "https://pietroxero.github.io/freelancer",
   "dependencies": {
     "@apollo/client": "^3.7.13",
     "@chakra-ui/react": "^2.6.0",
